@@ -1,1 +1,1 @@
-# disk_subsystem_mdadm
+# Дисковая подсистема
