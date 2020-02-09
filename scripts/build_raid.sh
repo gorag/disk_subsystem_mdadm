@@ -2,7 +2,7 @@
 MNT="/mnt/raid"
 DEV="/dev/md0"
 
-mdadm --create --verbose $DEV -l 5 -n 6 /dev/sd[bcdefg]
+mdadm --create --verbose $DEV -l 5 -n 5 /dev/sd[cdefg]
 
 parted -s $DEV mklabel gpt
 for i in $(seq 1 5)
